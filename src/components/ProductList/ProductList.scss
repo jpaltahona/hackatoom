@@ -1,0 +1,98 @@
+
+
+.list-Product{
+    width: 80%;
+    margin: 0 auto;
+    
+    .content-product{
+        display: inline-block; 
+    }
+}
+.header{
+    width: 100%;
+    border-bottom: solid 1px rgba(190, 198, 196, 0.2);
+    box-sizing: border-box;
+    padding: 0px 10px;
+    display: inline-block;
+
+    .ordenar{
+        float: left;
+        width: 50%;
+        display: flex;
+        color: #99a4a4;
+        font-family: 'Karla' , sans-serif;
+        
+
+         h2{
+             margin-top: 25px;
+            font-size: 16px;
+            font-weight: normal;
+         }
+
+        .content-select{
+            width: 50%;
+            position: relative;
+            select{
+                margin-left: 15px;
+                width: 100%;
+                height: 42px;
+                border-radius: 10px;
+                background-color: #f4f5f8;
+                border: none;
+                margin-top: 12px;
+                outline: none;
+                padding-left: 12px;
+                font-size: 14px;
+                font-family: 'Karla', sans-serif;
+                color: #000000;
+                appearance: none;
+                -webkit-appearance: none;
+                -moz-appearance: none;
+                position: relative;
+            }
+            i{
+                position: absolute;
+                right:  0px;
+                top: 25px;
+                width: 16px;
+                height: 16px;
+
+                img{
+                    width: 100%;
+                }
+            }
+        }  
+    }
+    .paginations{
+        float: right;
+        width: 50%;
+        ul{
+            display: flex;
+            list-style: none;
+            
+
+            li{
+                margin-right: 5px;
+                cursor: pointer;
+                box-sizing: border-box;
+                padding: 10px;
+                transition: 300ms;
+                border-radius: 5px;
+                color: #99a4a4;
+                font-family: 'Karla', sans-serif;
+                font-size: 16px;
+
+                &:hover{
+                    background-color: #ebebeb;
+                }
+                &:first-child{
+                    &:hover{
+                        background-color: transparent ;
+                    }
+                }
+            } 
+
+        }
+    }
+}
+@import '../../styles//media.scss';

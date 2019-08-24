@@ -1,0 +1,43 @@
+@media screen and (min-width: 300px) and (max-width: 740px) {
+
+    .list-Product{
+        width: 100%;
+        .item{
+            width: 100%;
+        }
+    }
+    .header{
+        .ordenar{
+            width: 100%;
+            .content-select {
+                float: none;
+                width: 67%;
+            }
+        }
+        .paginations {
+            float: none;
+            width: 100%;
+        }
+    } 
+}
+@media screen and (min-width: 741px) and (max-width: 1110px) {
+    .header{
+        .ordenar{
+            width: 40%;
+            .content-select {
+                float: none;
+                width: 67%;
+            }
+        }
+        .paginations {
+            float: none;
+            width: 50%;
+        }
+    }
+    .list-Product{
+        width: 100%;
+        .item{
+            width: 50%;
+        }
+    }
+}
